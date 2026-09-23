@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Page metadata and stylesheet -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PowerWise Australia | Home</title>
+    <link rel="icon" type="image/x-icon" href="images/Austravision.png" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- ===== HEADER / NAVIGATION BAR =====
+         Same header markup is repeated on every page.
+         Whichever link matches the current page gets the "active" class. -->
+    <header class="site-header">
+      <nav class="navbar">
+        <a class="logo-link" href="index.html">
+          <img
+            class="power-logo"
+            src="images/Austravision.png"
+            alt="Austravision logo"
+          />
+          <span class="logo-text">Austravision</span>
+        </a>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link active">Home</a>
+          <a href="television.html" class="nav-link">Televisions</a>
+          <a href="about.html" class="nav-link">About Us</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container">
+      <!-- ===== HERO SECTION =====
+           Big intro banner: heading + intro text on the left,
+           highlighted "hero card" on the right. -->
+      <section class="hero">
+        <div>
+          <p class="eyebrow">Australian Appliance Energy Guide</p>
+          <h1>Understand the power behind your appliances.</h1>
+          <p>
+            Austravision is a simple website exploring appliance energy consumption in the Australian market, with a focus on televisions and their energy efficiency.
+          </p>
+          <a class="button" href="television.html">Explore Televisions</a>
+        </div>
+        <div class="hero-card">
+          <span class="power-symbol">⏻</span>
+          <h2>Use less. Know more.</h2>
+          <p>Compare energy information before choosing your next appliance.</p>
+        </div>
+      </section>
+
+      <!-- ===== "WHAT WE COVER" SECTION =====
+           Three info cards in a row (see .cards / .card in the CSS). -->
+      <section class="section">
+        <div class="section-heading">
+          <p class="eyebrow">What we cover</p>
+          <h2>Energy consumption made simple</h2>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <div class="card-icon">01</div>
+            <h3>Energy use</h3>
+            <p>
+              Appliance electricity consumption is measured in watts (W) the rate of power draw and kilowatt-hours (kWh), which reflect how much energy is used over time. A higher wattage doesn't always mean higher running costs, how often and how long an appliance is used matters just as much.
+            </p>
+          </article>
+          <article class="card">
+            <div class="card-icon">02</div>
+            <h3>Australian market</h3>
+            <p>
+              Drawing on a dataset of television listings sold in Australia, this project looks at the mix of screen technologies, screen sizes, brands and power ratings currently on the market, and how they relate to customer star ratings.
+            </p>
+          </article>
+          <article class="card">
+            <div class="card-icon">03</div>
+            <h3>Televisions</h3>
+            <p>
+              LED-backlit LCD dominates the market, 55"-75" is the most common size range, and screen size is the strongest driver of power use. Head to the Televisions page for the full breakdown.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- ===== PROJECT NOTE BANNER =====
+           Highlighted callout reminding you this content is a placeholder. -->
+      <section class="info-banner">
+        <div>
+          <p class="eyebrow">Project note</p>
+          <h2>Bigger Screens use up More Energy, Cept Other Factors also Matter</h2>
+        </div>
+        <p>
+          Screen size is the single biggest factor in a television's power use, but screen technology and brand also play a role: standard LCD panels run cooler than LED-backlit or OLED sets on average, even though LED (LCD) is by far the most common technology sold in Australia.
+        </p>
+      </section>
+    </main>
+
+    <!-- ===== FOOTER =====
+         Same footer on every page. -->
+    <footer class="site-footer">
+      <p>
+        © 2026 Austravision · Created by
+        <strong>Kheldy Nathanael</strong>
+      </p>
+      <p>
+        GenAI acknowledgement: ClaudeAI was used to assist with website code and content.
+      </p>
+    </footer>
+
+    <!-- Handles active nav highlighting + smooth page-link transitions -->
+    <script src="js/navigation.js"></script>
+  </body>
+</html>

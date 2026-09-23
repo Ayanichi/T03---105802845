@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Page metadata and stylesheet -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Austravision Australia | Televisions</title>
+    <link rel="icon" type="image/x-icon" href="images/Austravision.png" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- ===== HEADER / NAVIGATION BAR =====
+         Same header markup is repeated on every page.
+         "Televisions" is marked active on this page. -->
+    <header class="site-header">
+      <nav class="navbar">
+        <a class="logo-link" href="index.html">
+          <img
+            class="power-logo"
+            src="images/Austravision.png"
+            alt="Austravision logo"
+          />
+          <span class="logo-text">Austravision</span>
+        </a>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="television.html" class="nav-link active">Televisions</a>
+          <a href="about.html" class="nav-link">About Us</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container">
+      <!-- ===== PAGE INTRO =====
+           Short heading/intro at the top of the page. -->
+      <section class="page-intro">
+        <p class="eyebrow">Australian Market</p>
+        <h1>Televisions</h1>
+        <p>
+          What a bigger, fancier, or different brand TV will actually cost you to run
+        </p>
+        <p>
+          Insight taken from a dataset provided by the Australian Government regarding TV energy use, helping buyers make educated choices.
+        </p>
+      </section>
+
+      <!-- ===== RESEARCH GRID =====
+           Six placeholder research topics, each with an image slot and text box.
+           To add a real image, replace the .image-placeholder div with:
+           <img class="research-image" src="images/your-image.jpg" alt="..."> -->
+      <section class="research-grid">
+        <!-- Does screen size affect power use? -->
+        <article class="research-item">
+          <img class="research-image" src="images/Q5.png" alt="TV Screen Sizes" />
+          <div class="text-box">
+            <h2>Does screen size affect power use?</h2>
+            <p>
+              Bigger screens cost more to run.
+            </p>
+          </div>
+        </article>
+
+        <!-- Do power costs differ by brand? -->
+        <article class="research-item">
+          <div class="image-carousel">
+            <div class="carousel-track">
+                <img src="images/Q7A.png" alt="Box Plot" />
+                <img src="images/Q7B.png" alt="Bar Chart" />
+            </div>
+            <button class="carousel-btn prev" aria-label="Previous image">&#10094;</button>
+            <button class="carousel-btn next" aria-label="Next image">&#10095;</button>
+            <div class="carousel-dots"></div>
+          </div>
+          <div class="text-box">
+            <h2>Do power costs differ by brand?</h2>
+            <p>
+              Yes, some brands run consistently, whilst some others not as much.
+            </p>
+          </div>
+        </article>
+
+        <!-- Does screen technology affect running cost? -->
+        <article class="research-item">
+          <img class="research-image" src="images/Q4.png" alt="TV Screen Sizes" />
+          <div class="text-box">
+            <h2>Does screen technology affect running cost?</h2>
+            <p>
+              Out of the 3 options, the standard LCD is the most cost effective option.
+            </p>
+          </div>
+        </article>
+
+        <!-- What sizes are most frequent? -->
+        <article class="research-item">
+          <img class="research-image" src="images/Q2.png" alt="TV Screen Sizes" />
+          <div class="text-box">
+            <h2>What sizes are most frequent?</h2>
+            <p>
+              55" and 65" are the most frequented TV sizes
+            </p>
+          </div>
+        </article>
+
+        <!-- What brands are the best -->
+        <article class="research-item">
+          <img class="research-image" src="images/Q3.png" alt="TV Screen Sizes" />
+          <div class="text-box">
+            <h2>What brands are the best</h2>
+            <p>
+              Kogan. LG and Samsung are the best and most well known brands in the market
+            </p>
+          </div>
+        </article>
+
+        <!-- What screen technologies are there? -->
+        <article class="research-item">
+          <div class="image-carousel">
+            <div class="carousel-track">
+                <img src="images/Q1A.png" alt="Box Plot" />
+                <img src="images/Q1B.png" alt="Bar Chart" />
+            </div>
+            <button class="carousel-btn prev" aria-label="Previous image">&#10094;</button>
+            <button class="carousel-btn next" aria-label="Next image">&#10095;</button>
+            <div class="carousel-dots"></div>
+          </div>
+          <div class="text-box">
+            <h2>What screen technologies are there</h2>
+            <p>
+              There are 3, with LCD (LED) leading the market
+            </p>
+          </div>
+        </article>
+
+        <!-- Do bigger TV's get worse ratings? -->
+        <article class="research-item">
+          <img class="research-image" src="images/Q6.png" alt="TV Screen Sizes" />
+          <div class="text-box">
+            <h2>Do bigger TV's get worse ratings?</h2>
+            <p>
+              No, Size does not predict the TV's ratings
+            </p>
+          </div>
+        </article>
+
+        <!-- Conclusion -->
+        <article class="research-item">
+          <div class="text-box">
+            <h2>Conclusion</h2>
+            <p>
+              The 55" LED TV is the strongest pick for most Australian Households. But, when choosing a TV, its screen size has the biggest effect on running cost, so it is worth picking a smaller size that can meet your needs rather than the largest one that fits your budget.
+            </p>
+            <p>
+              Aside so, branding and star rating matter more than what screen technology it is, check the labelled energy consumption rate on the specific model rather than assuming that a bigger screen means worse efficiency, since the data shows to real links between the two.
+            </p>
+          </div>
+        </article>
+
+      </section>
+    </main>
+
+    <!-- ===== FOOTER =====
+         Same footer on every page. -->
+    <footer class="site-footer">
+      <p>
+        © 2026 Austravision · Created by
+        <strong>Kheldy Nathanael</strong>
+      </p>
+      <p>
+        GenAI acknowledgement: ClaudeAI was used to assist with website code and content.
+      </p>
+    </footer>
+
+    <!-- Handles active nav highlighting + smooth page-link transitions -->
+    <script src="js/navigation.js"></script>
+  </body>
+</html>
