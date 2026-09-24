@@ -33,7 +33,10 @@ The data set contains no personal or household-level information — it describe
 The data story presents efficiency and consumption findings without implying that any individual brand or model is universally "bad" — differences are described as measured patterns in registered models, not as judgements on manufacturers, and known limitations (small sample sizes, imperfect brand matching) are disclosed alongside the findings they affect rather than left for the reader to discover on their own.
 
 ---
+## Miro
+[Miro board](https://miro.com/app/board/uXjVHjadzts=/?share_link_id=29892793626)
 
+---
 # AI Declaration
 
 Generative AI (Claude, by Anthropic) was used during the development of this website and its supporting analysis. All AI-assisted output was reviewed and, where needed, edited before being included in the final site. AI assistance was used for:
